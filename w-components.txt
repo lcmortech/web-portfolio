@@ -1,0 +1,9 @@
+about
+contact
+landing
+index
+about
+projects
+resume
+services
+contact
