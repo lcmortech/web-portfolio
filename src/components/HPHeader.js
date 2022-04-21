@@ -1,7 +1,12 @@
 
 
 function HPHeader() {
-    return( <p>This is a header.</p>)
+    return( 
+        <>
+            <h1 className="animated-header">Lauren Morgan</h1>
+            <p className="animated-header">Javascript Developer.</p>
+        </>
+    )
  }
  
  export default HPFooter

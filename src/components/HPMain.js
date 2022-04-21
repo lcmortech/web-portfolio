@@ -1,7 +1,12 @@
 
 
 function HPMain() {
-    return( <p>This is the main section.</p>)
+    return( 
+        <>
+        <AboutMe />
+        <Projects />
+        </>
+        )
  }
  
  export default HPFooter

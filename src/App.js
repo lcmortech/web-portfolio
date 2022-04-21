@@ -4,8 +4,6 @@ function App() {
   return (
     <div className="App">
       <HomePage />
-      <AboutMe />
-      <Projects />
       <Services />
       <Resume />
       <Contact />
