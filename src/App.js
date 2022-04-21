@@ -3,9 +3,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Landing />
       <HomePage />
-      <About />
+      <AboutMe />
       <Projects />
       <Services />
       <Resume />
