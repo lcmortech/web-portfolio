@@ -2,7 +2,7 @@
 
 function HomePage() {
     <>
-    <HPHeader />
+    <HPHeader className="header-hero" />
     <HPMain />
     <HPFooter />
     </>

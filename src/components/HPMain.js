@@ -3,8 +3,8 @@
 function HPMain() {
     return( 
         <>
-        <AboutMe />
-        <Projects />
+        <AboutMe className="side-section" />
+        <Projects className="side-section" />
         </>
         )
  }
