@@ -9,4 +9,4 @@ function HPHeader() {
     )
  }
  
- export default HPFooter
+ export default HPHeader;

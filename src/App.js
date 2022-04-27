@@ -1,4 +1,8 @@
 import './App.css';
+import HomePage from './components/HomePage';
+import Services from './components/Services';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 function App() {
   return (

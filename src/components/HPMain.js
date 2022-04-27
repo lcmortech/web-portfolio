@@ -1,4 +1,5 @@
-
+import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 
 function HPMain() {
     return( 
@@ -9,4 +10,4 @@ function HPMain() {
         )
  }
  
- export default HPFooter
+ export default HPMain;

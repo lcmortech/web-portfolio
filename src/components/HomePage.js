@@ -1,4 +1,6 @@
-
+import HPHeader from "./HPHeader";
+import HPMain from "./HPMain";
+import HPFooter from "./HPFooter";
 
 function HomePage() {
     <>
