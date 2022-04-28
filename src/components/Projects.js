@@ -2,13 +2,13 @@
 
 function Projects() {
     <aside>
-        <h5>Learning Apps</h5>
+        <h4>Learning Apps</h4>
         <p>J-Quiz</p>
-        <h4>RetroLand - EStore</h4>
+        <h5>RetroLand - EStore</h5>
         <p>Coming Soon!</p>
-        <h4>Triple Threat - An Original Card Game</h4>
+        <h5>Triple Threat - An Original Card Game</h5>
         <p>Coming Soon!</p>
-        <h4>Toon Tunnel</h4>
+        <h5>Toon Tunnel</h5>
         <p>Coming Soon!</p>
     </aside>
 }
