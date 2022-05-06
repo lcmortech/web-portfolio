@@ -1,7 +1,7 @@
 
 
 function Contact() {
-    <p>test</p>
+    return <p>test</p>
 }
 
 export default Contact;

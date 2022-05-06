@@ -1,7 +1,7 @@
 
 
 function Projects() {
-    <aside>
+    return(<aside>
         <h4>Learning Apps</h4>
         <p>J-Quiz</p>
         <h5>RetroLand - EStore</h5>
@@ -10,7 +10,7 @@ function Projects() {
         <p>Coming Soon!</p>
         <h5>Toon Tunnel</h5>
         <p>Coming Soon!</p>
-    </aside>
+    </aside>)
 }
 
 export default Projects;
