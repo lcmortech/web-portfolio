@@ -3,6 +3,7 @@ import HomePage from './components/HomePage';
 import Services from './components/Services';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Services />
       <Resume />
       <Contact />
+      <Navigation />
     </div>
   );
 }
