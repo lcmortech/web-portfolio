@@ -1,7 +1,7 @@
-
+import Contact from "./Contact";
 
 function HPFooter() {
-   return( <p>This is a footer.</p>)
+   <Contact />
 }
 
 export default HPFooter;

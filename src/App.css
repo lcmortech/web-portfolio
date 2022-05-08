@@ -19,7 +19,27 @@ main {
 
 footer {
   color: inherit;
-} */
+} 
+
+rgb(67, 207, 130)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: inherit;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: black;
+  /*background-color: rgb(194, 248, 239)*/
+}
 
 p {
   margin: .5rem
@@ -27,21 +47,37 @@ p {
 
 .aside-container {
   display: flex;
-  flex-flow: row no wrap;
+  flex-flow: row nowrap;
   justify-content: center;
 }
 
 .image-border {
-  border-radius: 50%
+  border-radius: 50%;
+  margin-top: 1.5rem;
+}
+
+.image-border:hover {
+  width: 150px;
+}
+
+aside {
+  padding: 2rem;
+  margin: 1.2rem;
+  width: 30%;
+  background-color: rgb(67, 207, 130);
+  color: white;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .aboutme-aside {
-  padding: 20px;
-  margin: 10px;
-  width: 35%;
-  background-color: black;
-  color: white;
-  line-height: 1.5rem;
-  text-align: center;
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
 }
+
+.projects-aside {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 4rem;
+}
+
 
