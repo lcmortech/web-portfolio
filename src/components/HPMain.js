@@ -3,10 +3,10 @@ import Projects from "./Projects";
 
 function HPMain() {
     return( 
-        <>
+        <div className="aside-container">
         <AboutMe />
         <Projects />
-        </>
+        </div>
         )
  }
  
