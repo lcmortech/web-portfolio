@@ -21,3 +21,12 @@ footer {
   color: inherit;
 } */
 
+.image-border {
+  border-radius: 50%
+}
+
+.side-profile {
+  background-color: black;
+  color: white;
+}
+
