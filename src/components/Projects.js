@@ -5,9 +5,9 @@ function Projects() {
         <aside className="projects-aside">
             <h3>Learning Apps</h3>
             <p>J-Quiz</p>
-            <h5>RetroLand - EStore</h5>
+            <h4>RetroLand - EStore</h4>
             <p>Coming Soon!</p>
-            <h5>Triple Threat - An Original Card Game</h5>
+            <h4>Triple Threat - An Original Card Game</h4>
             <p>Coming Soon!</p>
             <h5>Toon Tunnel</h5>
             <p>Coming Soon!</p>

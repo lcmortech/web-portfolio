@@ -1,7 +1,10 @@
 import Contact from "./Contact";
 
 function HPFooter() {
-   <Contact />
+   <footer>
+      <Contact />
+   </footer>
+   
 }
 
 export default HPFooter;

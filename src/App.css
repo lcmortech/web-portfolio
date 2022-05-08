@@ -41,6 +41,21 @@ body {
   /*background-color: rgb(194, 248, 239)*/
 }
 
+header {
+  background-color: rgb(61, 185, 185);
+  margin: 1rem auto;
+  padding: 1.2rem 0 1.2rem;
+  /*clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);*/
+  text-align: center;
+  font-size: 1.5rem;
+  
+  
+}
+
+.header-container {
+  color: inherit;
+}
+
 p {
   margin: .5rem
 }
@@ -61,9 +76,10 @@ p {
 }
 
 aside {
-  padding: 2rem;
-  margin: 1.2rem;
-  width: 30%;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
   background-color: rgb(67, 207, 130);
   color: white;
   line-height: 1.5rem;
@@ -72,12 +88,19 @@ aside {
 }
 
 .aboutme-aside {
-  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+  margin-right: .5rem;
+  color: inherit;
+  /*clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);*/
 }
 
 .projects-aside {
-  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
-  padding-top: 4rem;
+  /*clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);*/
+  padding-top: 3rem;
 }
 
 
+footer {
+  background-color: rgb(61, 185, 185);
+  margin: 1rem auto;
+  padding: 1.2rem 0 1.2rem;
+}
