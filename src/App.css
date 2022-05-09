@@ -22,6 +22,8 @@ footer {
 } 
 
 rgb(67, 207, 130)
+rgb(61, 185, 185);
+rgb(255, 249, 160)
 */
 
 * {
@@ -33,23 +35,40 @@ html {
   font-size: inherit;
 }
 
+.cover-image {
+  background: center center no-repeat cover;
+  height: 100vh;
+}
+
 body {
   height: 100vh;
   width: 100vw;
   color: white;
-  background-color: black;
+  background-color: rgb(0,0,0);
   /*background-color: rgb(194, 248, 239)*/
 }
 
+
+
 header {
-  background-color: rgb(61, 185, 185);
-  margin: 1rem auto;
+  border: solid 3px rgb(51, 168, 168);
+  border-radius: 10px;
+  width: 90%;
+  margin: 2rem auto;
   padding: 1.2rem 0 1.2rem;
   /*clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);*/
   text-align: center;
   font-size: 1.5rem;
   
   
+}
+
+.animated-header-1 {
+  animation: moveDown 1s ease-in-out;
+}
+
+.animated-header-2 {
+  animation: moveUp 1s ease-in-out;
 }
 
 .header-container {
@@ -76,19 +95,24 @@ p {
 }
 
 aside {
+  border: solid 3px rgb(51, 185, 111);
   border-radius: 10px;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 1rem 2rem;
+  padding: 0 1rem;
   width: 100%;
-  background-color: rgb(67, 207, 130);
   color: white;
   line-height: 1.5rem;
   font-weight: 400;
   text-align: center;
 }
 
+aside:before {
+  box-shadow: inset 0 0 2000px rgba(255,255,255,.5);
+  filter: blur(10px);
+}
+
 .aboutme-aside {
-  margin-right: .5rem;
+  margin-right: 1rem;
   color: inherit;
   /*clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);*/
 }
@@ -103,4 +127,38 @@ footer {
   background-color: rgb(61, 185, 185);
   margin: 1rem auto;
   padding: 1.2rem 0 1.2rem;
+}
+
+@keyframes moveDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-10rem);		
+	}
+	
+	60% {
+    opacity: .25;
+		transform: translateY(1rem);	
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translate(0);		
+	}
+}
+
+@keyframes moveUp {
+	0% {
+		opacity: 0;
+		transform: translateY(10rem);		
+	}
+
+	80% {
+    opacity: .25;
+		transform: translateY(-1rem);	
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translate(0);		
+	}
 }
