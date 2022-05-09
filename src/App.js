@@ -9,7 +9,7 @@ import cubeImage from './cube-image.jpeg'
 function App() {
   return (
     <div className="App">
-      <img className='cover-image' src={cubeImage} />
+      {/*<img className='cover-image' src={cubeImage} />*/}
       <HomePage />
       <Services />
       <Resume />
