@@ -68,11 +68,11 @@ header {
 }
 
 .animated-header-1 {
-  animation: moveDown 1s ease-in-out;
+  animation: moveDown 1s ease-in;
 }
 
 .animated-header-2 {
-  animation: moveUp 1s ease-in-out;
+  animation: moveUp 1s ease-in;
 }
 
 .header-container {
@@ -136,7 +136,7 @@ footer {
 @keyframes moveDown {
 	0% {
 		opacity: 0;
-		transform: translateY(-10rem);		
+		transform: translateY(-5rem);		
 	}
 	
 	60% {
@@ -153,12 +153,12 @@ footer {
 @keyframes moveUp {
 	0% {
 		opacity: 0;
-		transform: translateY(10rem);		
+		transform: translateY(5rem);		
 	}
 
-	80% {
+	60% {
     opacity: .25;
-		transform: translateY(-1rem);	
+		transform: translateY(1rem);	
 	}
 	
 	100% {

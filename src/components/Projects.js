@@ -1,4 +1,4 @@
-
+//Remember to add modals for each project listed!
 
 function Projects() {
     return(
