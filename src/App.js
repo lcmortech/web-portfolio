@@ -10,11 +10,10 @@ function App() {
   return (
     <div className="App">
       {/*<img className='cover-image' src={cubeImage} />*/}
+      <Navigation />
       <HomePage />
       <Services />
       <Resume />
-      <Contact />
-      <Navigation />
     </div>
   );
 }

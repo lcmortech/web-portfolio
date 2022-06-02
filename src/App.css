@@ -68,11 +68,11 @@ header {
 }
 
 .animated-header-1 {
-  animation: moveDown 1s ease-in;
+  animation: moveDown 1s ease-in-out;
 }
 
 .animated-header-2 {
-  animation: moveUp 1s ease-in;
+  animation: moveUp 1s ease-in-out;
 }
 
 .header-container {
@@ -136,14 +136,14 @@ footer {
 @keyframes moveDown {
 	0% {
 		opacity: 0;
-		transform: translateY(-5rem);		
+		transform: translateY(-2rem);		
 	}
 	
-	60% {
+	/* 60% {
     opacity: .25;
 		transform: translateY(1rem);	
 	}
-	
+	 */
 	100% {
 		opacity: 1;
 		transform: translate(0);		
@@ -153,13 +153,13 @@ footer {
 @keyframes moveUp {
 	0% {
 		opacity: 0;
-		transform: translateY(5rem);		
+		transform: translateY(2rem);		
 	}
 
-	60% {
+	/* 60% {
     opacity: .25;
 		transform: translateY(1rem);	
-	}
+	} */
 	
 	100% {
 		opacity: 1;
